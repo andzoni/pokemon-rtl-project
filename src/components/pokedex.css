@@ -13,6 +13,7 @@
   background-color: green;
   height: 50px;
   width: 100px;
+  margin-bottom: 10px;
 }
 
 .pokedex-button:disabled {

@@ -1,8 +1,29 @@
 .App {
   text-align: center;
+  margin-top: 10%;
+  border-radius: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  background-image: url('poke.jpg');
+  background-size:contain;
+  background-position:center;
+  background-repeat: repeat-x;
 }
+
+html {
+  background-color: rgb(214, 26, 26);
+}
+
 
 .link {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+@media (max-width:640px) {
+  .App {
+    background-image: none;
+    background-color: white;
+  }
 }
