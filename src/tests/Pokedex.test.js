@@ -8,7 +8,7 @@ import pokemons from '../data';
 describe('Testing Component Pokedex:', () => { 
   const pokename = 'pokemon-name'; 
 
-  test('Teste se página contém um heading h2 com o texto Encountered pokémons', () => { 
+  test('Teste se pagina contém um heading h2 com o texto Encountered pokémons', () => { 
     renderWithRouter(<App />); 
 
     const pokedexText = screen.getByRole('heading', { 
